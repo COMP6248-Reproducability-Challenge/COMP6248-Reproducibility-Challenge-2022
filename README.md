@@ -2,3 +2,7 @@
 
 Trying to reproduce the paper "ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness "
 https://openreview.net/forum?id=Bygh9j09KX
+
+## test_models_general.py
+pretrained models from original paper are loaded using the code in this repository in models/load_pretrained_models.py:
+https://github.com/rgeirhos/texture-vs-shape
