@@ -3,8 +3,8 @@
 Trying to reproduce the paper "ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness "
 https://openreview.net/forum?id=Bygh9j09KX
 
-##finetune_resnet_ontin.py
-This script is used to finetune the ResNet50 images on Tiny-ImageNet. Each category of images should be in a separate folder so that they can be loaded by ImageFolder.
+## finetune_resnet_ontin.py
+This script is used to finetune the ResNet50 images on Tiny-ImageNet. Each category of images should be in a separate folder so that they can be loaded by ImageFolder. tin_data_folders_format.py and stin_data_folders_format.py is used to rearrange the folder structure on linux.
 
 ## test_models_general.py
 pretrained models from original paper are loaded using the code in this repository in models/load_pretrained_models.py:
